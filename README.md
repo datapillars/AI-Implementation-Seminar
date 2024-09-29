@@ -6,14 +6,22 @@ System Requirements for Training and Working with the Data
 Program Requirements
 Python Version: 3.11.9
 The model was trained in Jupyter Notebooks, but the code can also run directly as a .py file without any modification.
+
 Note: For future Python versions, the “append” method is depreciated. If a newer Python version is used, the “concat” method should be used to put the final data in a data frame. 
 
 Datasets Used:
+
 all_waybill_info_meituan.csv
+
 2021_Cars_Aggregated.csv
+
 dispatch_rider_meituan.csv
+
 courier_wave_info_meituan.csv
+
 Data Link: https://drive.google.com/drive/folders/1LoDZXG93EYtUYOBlhiHwfzfzddSDX-sm?usp=sharing
+
+You can download the data from the drive link or directly from the GitHub. 
 
 Memory Usage:
 Single Courier Training: 600 MB of RAM is required for training each model—both the fastest car model and the environmentally friendly model.
@@ -26,12 +34,19 @@ In total, training both models will take approximately 16 hours.
 In the code, the model is prepared to train with 100 orders and approximately 20000 couriers. 
 
 Required Libraries:
+
 pandas (for data manipulation)
+
 numpy (for numerical operations)
+
 datetime (for handling date and time data)
+
 psutil (for tracking memory usage)
+
 multiprocessing (for parallel execution of the training process)
+
 math (for mathematical calculations)
 
 Extra Note for Data Loading: 
+
 You need to update the code to load data to the model. The data loading part is the second cell in the Jupyter Notebook. 
