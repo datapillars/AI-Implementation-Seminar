@@ -11,6 +11,7 @@ Note: For future Python versions, the “append” method is depreciated. If a n
 Datasets Used:
 all_waybill_info_meituan.csv
 2021_Cars_Aggregated.csv
+Data Link: https://drive.google.com/drive/folders/1LoDZXG93EYtUYOBlhiHwfzfzddSDX-sm?usp=sharing
 
 Memory Usage:
 Single Courier Training: 600 MB of RAM is required for training each model—both the fastest car model and the environmentally friendly model.
@@ -28,3 +29,6 @@ datetime (for handling date and time data)
 psutil (for tracking memory usage)
 multiprocessing (for parallel execution of the training process)
 math (for mathematical calculations)
+
+Extra Note for Data Loading 
+You need to update the code to load data to the model. The data loading part is the second cell in the jupyter notebook. 
