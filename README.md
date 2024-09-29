@@ -33,5 +33,5 @@ psutil (for tracking memory usage)
 multiprocessing (for parallel execution of the training process)
 math (for mathematical calculations)
 
-Extra Note for Data Loading 
+Extra Note for Data Loading: 
 You need to update the code to load data to the model. The data loading part is the second cell in the Jupyter Notebook. 
