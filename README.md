@@ -21,7 +21,7 @@ courier_wave_info_meituan.csv
 
 Data Link: https://drive.google.com/drive/folders/1LoDZXG93EYtUYOBlhiHwfzfzddSDX-sm?usp=sharing
 
-You can download the data from the drive link or directly from the GitHub. 
+You can download the data from the drive link.
 
 Memory Usage:
 Single Courier Training: 600 MB of RAM is required for training each model—both the fastest car model and the environmentally friendly model.
